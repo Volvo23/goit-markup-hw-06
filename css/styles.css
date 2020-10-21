@@ -865,7 +865,7 @@ nav ul li:not(:last-child) {
 }
 
 .modal-form-check:checked + .modal-form-label-check::before {
-  background-image: url("../icons/check.svg");
+  background-image: url("../icons/icon-check.png");
   border: none;
 }
 
