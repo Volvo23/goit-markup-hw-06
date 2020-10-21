@@ -744,7 +744,10 @@ nav ul li:not(:last-child) {
   justify-content: center;
   align-items: center;
 }
-
+.close-modal:hover,
+.close-modal:focus {
+  fill: var(--text-hover-focus);
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -781,7 +784,7 @@ nav ul li:not(:last-child) {
   border-color: var(--text-hover-focus);
 }
 
-.modal-input:focus + .modal-icon {
+.modal-form-input:focus + .modal-form-icon {
   fill: var(--text-hover-focus);
 }
 
@@ -802,6 +805,12 @@ nav ul li:not(:last-child) {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+}
+.modal-form-field:hover .modal-form-icon {
+  fill: var(--text-hover-focus);
+}
+.modal-form-field:hover .modal-form-input {
+  border-color: var(--text-hover-focus);
 }
 
 .modal-form-input-label {
